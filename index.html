@@ -9,11 +9,13 @@
 	<title>Green Energy</title>
 	<style>
 		body{
+			font-size: 16px;
 			font-family: Arial, sans-serif;
 			line-height: 1.6;
 			margin-bottom: 20px;
 		}
 		.header {
+			height: 500px;
 			position: relative;
 			text-align: center;
 			margin-bottom: 20px;
@@ -62,8 +64,17 @@
 		.content h2{
 		font-size: 30px;
 		}	
-			
-			
+		@media (max-width: 768px) {
+			body {
+				font-size: 14px;
+			}
+			.header {
+				height: 300px;
+			}
+			img.logo {
+				height:100px;
+			}
+		}	
             </style>
 	</head>
 	<body>
